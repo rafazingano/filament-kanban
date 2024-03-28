@@ -1,6 +1,6 @@
 <?php
 
-namespace Mokhosh\FilamentKanban\Tests;
+namespace Rafazingano\FilamentKanban\Tests;
 
 use BladeUI\Heroicons\BladeHeroiconsServiceProvider;
 use BladeUI\Icons\BladeIconsServiceProvider;
@@ -15,9 +15,9 @@ use Filament\Widgets\WidgetsServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Schema\Blueprint;
 use Livewire\LivewireServiceProvider;
-use Mokhosh\FilamentKanban\FilamentKanbanServiceProvider;
-use Mokhosh\FilamentKanban\Tests\Models\User;
-use Mokhosh\FilamentKanban\Tests\Providers\TestPanelProvider;
+use Rafazingano\FilamentKanban\FilamentKanbanServiceProvider;
+use Rafazingano\FilamentKanban\Tests\Models\User;
+use Rafazingano\FilamentKanban\Tests\Providers\TestPanelProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 use RyanChandler\BladeCaptureDirective\BladeCaptureDirectiveServiceProvider;
 
@@ -28,7 +28,7 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'Mokhosh\\FilamentKanban\\Tests\\Factories\\' . class_basename($modelName) . 'Factory'
+            fn (string $modelName) => 'Rafazingano\\FilamentKanban\\Tests\\Factories\\' . class_basename($modelName) . 'Factory'
         );
 
         $this->setUpDatabase($this->app);

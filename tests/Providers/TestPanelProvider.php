@@ -1,6 +1,6 @@
 <?php
 
-namespace Mokhosh\FilamentKanban\Tests\Providers;
+namespace Rafazingano\FilamentKanban\Tests\Providers;
 
 use Filament\Http\Middleware\Authenticate;
 use Filament\Http\Middleware\DisableBladeIconComponents;
@@ -14,8 +14,8 @@ use Illuminate\Routing\Middleware\SubstituteBindings;
 use Illuminate\Session\Middleware\AuthenticateSession;
 use Illuminate\Session\Middleware\StartSession;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
-use Mokhosh\FilamentKanban\Tests\Pages\TestBoard;
-use Mokhosh\FilamentKanban\Tests\Pages\TestBoardWithCustomViews;
+use Rafazingano\FilamentKanban\Tests\Pages\TestBoard;
+use Rafazingano\FilamentKanban\Tests\Pages\TestBoardWithCustomViews;
 
 class TestPanelProvider extends PanelProvider
 {

@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Database\Eloquent\Model;
-use Mokhosh\FilamentKanban\Tests\Models\Task;
-use Mokhosh\FilamentKanban\Tests\Pages\TestBoard;
+use Rafazingano\FilamentKanban\Tests\Models\Task;
+use Rafazingano\FilamentKanban\Tests\Pages\TestBoard;
 
 use function Pest\Laravel\actingAs;
 

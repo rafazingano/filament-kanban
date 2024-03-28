@@ -1,11 +1,11 @@
 <?php
 
-namespace Mokhosh\FilamentKanban\Tests\Pages;
+namespace Rafazingano\FilamentKanban\Tests\Pages;
 
 use Filament\Forms\Components\TextInput;
-use Mokhosh\FilamentKanban\Pages\KanbanBoard;
-use Mokhosh\FilamentKanban\Tests\Enums\TaskStatus;
-use Mokhosh\FilamentKanban\Tests\Models\Task;
+use Rafazingano\FilamentKanban\Pages\KanbanBoard;
+use Rafazingano\FilamentKanban\Tests\Enums\TaskStatus;
+use Rafazingano\FilamentKanban\Tests\Models\Task;
 
 class TestBoardWithCustomViews extends KanbanBoard
 {

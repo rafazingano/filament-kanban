@@ -1,25 +1,25 @@
 # Add kanban boards to your Filament pages
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/mokhosh/filament-kanban.svg?style=flat-square)](https://packagist.org/packages/mokhosh/filament-kanban)
-[![Total Downloads](https://img.shields.io/packagist/dt/mokhosh/filament-kanban.svg?style=flat-square)](https://packagist.org/packages/mokhosh/filament-kanban)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/rafazingano/filament-kanban.svg?style=flat-square)](https://packagist.org/packages/rafazingano/filament-kanban)
+[![Total Downloads](https://img.shields.io/packagist/dt/rafazingano/filament-kanban.svg?style=flat-square)](https://packagist.org/packages/rafazingano/filament-kanban)
 
 
 Easily add Kanban board pages to your Filament panels.
 
-![Customized kanban board views](https://raw.githubusercontent.com/mokhosh/filament-kanban/main/images/client-kanban.png)
+![Customized kanban board views](https://raw.githubusercontent.com/rafazingano/filament-kanban/main/images/client-kanban.png)
 
-![Customized edit modal](https://raw.githubusercontent.com/mokhosh/filament-kanban/main/images/client-edit.png)
+![Customized edit modal](https://raw.githubusercontent.com/rafazingano/filament-kanban/main/images/client-edit.png)
 
-![Cards with progress indicator](https://raw.githubusercontent.com/mokhosh/filament-kanban/main/images/prospect-kanban.png)
+![Cards with progress indicator](https://raw.githubusercontent.com/rafazingano/filament-kanban/main/images/prospect-kanban.png)
 
-![Another example by @Log1x](https://raw.githubusercontent.com/mokhosh/filament-kanban/main/images/organizer-board.png)
+![Another example by @Log1x](https://raw.githubusercontent.com/rafazingano/filament-kanban/main/images/organizer-board.png)
 
 ## Installation
 
 You can install the package via composer:
 
 ```bash
-composer require mokhosh/filament-kanban
+composer require rafazingano/filament-kanban
 ```
 
 Publish the assets so the styles are correct:
@@ -40,7 +40,7 @@ I recommend you create a string backed `Enum` to define your statuses.
 You can use our `IsKanbanStatus` trait, so you can easily transform your enum cases for the Kanban board using the `statuses` method on your enum.
 
 ```php
-use Mokhosh\FilamentKanban\Concerns\IsKanbanStatus;
+use Rafazingano\FilamentKanban\Concerns\IsKanbanStatus;
 
 enum UserStatus: string
 {
@@ -287,9 +287,9 @@ Are you a visual learner? I have created some Youtube videos to get you started 
 
 ## Demos and Examples
 
-- [Kanban Example](https://github.com/mokhosh/filament-kanban-example)
+- [Kanban Example](https://github.com/rafazingano/filament-kanban-example)
 
-- [Kanban Todo](https://github.com/mokhosh/filament-kanban-todo)
+- [Kanban Todo](https://github.com/rafazingano/filament-kanban-todo)
 
 ## Testing
 
@@ -317,7 +317,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [Mo Khosh](https://github.com/mokhosh)
+- [Mo Khosh](https://github.com/rafazingano)
 - [All Contributors](../../contributors)
 - This original idea and structure of this package borrows heavily from [David Vincent](https://github.com/invaders-xx)'s [filament-kanban-board](https://github.com/invaders-xx/filament-kanban-board/)
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Mokhosh\FilamentKanban\Concerns;
+namespace Rafazingano\FilamentKanban\Concerns;
 
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Form;
