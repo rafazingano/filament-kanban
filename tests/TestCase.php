@@ -15,10 +15,10 @@ use Filament\Widgets\WidgetsServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Schema\Blueprint;
 use Livewire\LivewireServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 use Rafazingano\FilamentKanban\FilamentKanbanServiceProvider;
 use Rafazingano\FilamentKanban\Tests\Models\User;
 use Rafazingano\FilamentKanban\Tests\Providers\TestPanelProvider;
-use Orchestra\Testbench\TestCase as Orchestra;
 use RyanChandler\BladeCaptureDirective\BladeCaptureDirectiveServiceProvider;
 
 class TestCase extends Orchestra
