@@ -7,7 +7,7 @@ use Livewire\Attributes\On;
 trait HasStatusChange
 {
     #[On('status-changed')]
-    public function statusChanged(int|string $recordId, string $status, array $fromOrderedIds, array $toOrderedIds): void
+    public function statusChanged(int | string $recordId, string $status, array $fromOrderedIds, array $toOrderedIds): void
     {
         $this->onStatusChanged($recordId, $status, $fromOrderedIds, $toOrderedIds);
     }
