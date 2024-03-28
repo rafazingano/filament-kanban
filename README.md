@@ -114,13 +114,13 @@ You can also override these methods to change your board's behavior when records
 - `onSortChanged` which defines what happens when a record is moved inside the same status.
 
 ```php
-public function onStatusChanged(int $recordId, string $status, array $fromOrderedIds, array $toOrderedIds): void
+public function onStatusChanged($recordId, string $status, array $fromOrderedIds, array $toOrderedIds): void
 {
     User::find($recordId)->update(['status' => $status]);
     User::setNewOrder($toOrderedIds);
 }
 
-public function onSortChanged(int $recordId, string $status, array $orderedIds): void
+public function onSortChanged($recordId, string $status, array $orderedIds): void
 {
     User::setNewOrder($orderedIds);
 }

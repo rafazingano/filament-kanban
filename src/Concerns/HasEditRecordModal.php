@@ -26,7 +26,7 @@ trait HasEditRecordModal
         $this->form->fill();
     }
 
-    public function recordClicked(int $recordId, array $data): void
+    public function recordClicked($recordId, array $data): void
     {
         $this->editModalRecordId = $recordId;
 
@@ -59,12 +59,12 @@ trait HasEditRecordModal
             ->model($this->editModalRecordId ? static::$model::find($this->editModalRecordId) : static::$model);
     }
 
-    protected function getEditModalRecordData(int $recordId, array $data): array
+    protected function getEditModalRecordData($recordId, array $data): array
     {
         return $this->getEloquentQuery()->find($recordId)->toArray();
     }
 
-    protected function editRecord(int $recordId, array $data, array $state): void
+    protected function editRecord($recordId, array $data, array $state): void
     {
         $this->getEloquentQuery()->find($recordId)->update($data);
     }
