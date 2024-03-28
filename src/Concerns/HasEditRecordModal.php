@@ -11,7 +11,7 @@ trait HasEditRecordModal
 
     public ?array $editModalFormState = [];
 
-    public ?int $editModalRecordId = null;
+    public $editModalRecordId = null;
 
     protected string $editModalTitle = 'Edit Record';
 
