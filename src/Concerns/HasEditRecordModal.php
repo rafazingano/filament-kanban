@@ -69,7 +69,7 @@ trait HasEditRecordModal
         $this->getEloquentQuery()->find($recordId)->update($data);
     }
 
-    protected function getEditModalFormSchema(?int $recordId): array
+    protected function getEditModalFormSchema($recordId): array
     {
         return [
             TextInput::make(static::$recordTitleAttribute),
