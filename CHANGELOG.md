@@ -118,7 +118,7 @@ class UserDashboard extends KanbanBoard
         User::setNewOrder($orderedIds);
     }
 
-    protected function getEditModalFormSchema(null|int $recordId): array
+    protected function getEditModalFormSchema($recordId): array
     {
         return [
             TextInput::make('title'),
@@ -227,7 +227,7 @@ class UserDashboard extends KanbanBoard
         User::setNewOrder($orderedIds);
     }
 
-    protected function getEditModalFormSchema(null|int $recordId): array
+    protected function getEditModalFormSchema($recordId): array
     {
         return [
             TextInput::make('title'),

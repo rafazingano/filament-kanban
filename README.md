@@ -168,7 +168,7 @@ public bool $disableEditModal = false;
 You can define the edit modal form schema by overriding this method:
 
 ```php
-protected function getEditModalFormSchema(null|int $recordId): array
+protected function getEditModalFormSchema($recordId): array
 {
     return [
         TextInput::make('title'),
