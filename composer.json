@@ -1,15 +1,15 @@
 {
-    "name": "mokhosh/filament-kanban",
+    "name": "rafazingano/filament-kanban",
     "description": "Add kanban boards to your Filament pages",
     "keywords": [
-        "mokhosh",
+        "rafazingano",
         "laravel",
         "filament-kanban"
     ],
-    "homepage": "https://github.com/mokhosh/filament-kanban",
+    "homepage": "https://github.com/rafazingano/filament-kanban",
     "support": {
-        "issues": "https://github.com/mokhosh/filament-kanban/issues",
-        "source": "https://github.com/mokhosh/filament-kanban"
+        "issues": "https://github.com/rafazingano/filament-kanban/issues",
+        "source": "https://github.com/rafazingano/filament-kanban"
     },
     "license": "MIT",
     "authors": [
@@ -37,13 +37,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Mokhosh\\FilamentKanban\\": "src/",
-            "Mokhosh\\FilamentKanban\\Database\\Factories\\": "database/factories/"
+            "Rafazingano\\FilamentKanban\\": "src/",
+            "Rafazingano\\FilamentKanban\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Mokhosh\\FilamentKanban\\Tests\\": "tests/"
+            "Rafazingano\\FilamentKanban\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -63,10 +63,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Mokhosh\\FilamentKanban\\FilamentKanbanServiceProvider"
+                "Rafazingano\\FilamentKanban\\FilamentKanbanServiceProvider"
             ],
             "aliases": {
-                "FilamentKanban": "Mokhosh\\FilamentKanban\\Facades\\FilamentKanban"
+                "FilamentKanban": "Rafazingano\\FilamentKanban\\Facades\\FilamentKanban"
             }
         }
     },

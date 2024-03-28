@@ -6,39 +6,39 @@ All notable changes to `filament-kanban` will be documented in this file.
 
 ### What's Changed
 
-* Add Laravell 11 support by @mokhosh and @gnovaro in https://github.com/mokhosh/filament-kanban/pull/24
+* Add Laravell 11 support by @rafazingano and @gnovaro in https://github.com/rafazingano/filament-kanban/pull/24
 
 ### New Contributors
 
-* @gnovaro made their first contribution in https://github.com/mokhosh/filament-kanban/pull/24
+* @gnovaro made their first contribution in https://github.com/rafazingano/filament-kanban/pull/24
 
-**Full Changelog**: https://github.com/mokhosh/filament-kanban/compare/v2.6.1...v2.7.0
+**Full Changelog**: https://github.com/rafazingano/filament-kanban/compare/v2.6.1...v2.7.0
 
 ## v2.6.1 - 2024-03-07
 
 ### What's Changed
 
-* Fix the overflow hidden styling by @hussain4real in https://github.com/mokhosh/filament-kanban/pull/21
+* Fix the overflow hidden styling by @hussain4real in https://github.com/rafazingano/filament-kanban/pull/21
 
 ### New Contributors
 
-* @hussain4real made their first contribution in https://github.com/mokhosh/filament-kanban/pull/21
+* @hussain4real made their first contribution in https://github.com/rafazingano/filament-kanban/pull/21
 
-**Full Changelog**: https://github.com/mokhosh/filament-kanban/compare/v2.6.0...v2.6.1
+**Full Changelog**: https://github.com/rafazingano/filament-kanban/compare/v2.6.0...v2.6.1
 
 ## v2.6.0 - 2024-03-07
 
 ### What's Changed
 
-* Update KanbanBoard to not require a status property by @brenjt in https://github.com/mokhosh/filament-kanban/pull/20
-* Add getEloquentQuery in queries by @aislandener in https://github.com/mokhosh/filament-kanban/pull/19
+* Update KanbanBoard to not require a status property by @brenjt in https://github.com/rafazingano/filament-kanban/pull/20
+* Add getEloquentQuery in queries by @aislandener in https://github.com/rafazingano/filament-kanban/pull/19
 
 ### New Contributors
 
-* @brenjt made their first contribution in https://github.com/mokhosh/filament-kanban/pull/20
-* @aislandener made their first contribution in https://github.com/mokhosh/filament-kanban/pull/19
+* @brenjt made their first contribution in https://github.com/rafazingano/filament-kanban/pull/20
+* @aislandener made their first contribution in https://github.com/rafazingano/filament-kanban/pull/19
 
-**Full Changelog**: https://github.com/mokhosh/filament-kanban/compare/v2.5.0...v2.6.0
+**Full Changelog**: https://github.com/rafazingano/filament-kanban/compare/v2.5.0...v2.6.0
 
 ## v2.5.0 - 2024-03-06
 
@@ -52,7 +52,7 @@ Save relationships too when saving a record.
 
 ## v2.3.0 - 2024-02-25
 
-- fixes https://github.com/mokhosh/filament-kanban/issues/14
+- fixes https://github.com/rafazingano/filament-kanban/issues/14
 - deprecate has recent update indication trait
 
 ## v2.2.0 - 2024-02-15
@@ -90,7 +90,7 @@ use App\Models\User;
 use Filament\Forms\Components\TextInput;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
-use Mokhosh\FilamentKanban\Pages\KanbanBoard;
+use Rafazingano\FilamentKanban\Pages\KanbanBoard;
 
 class UserDashboard extends KanbanBoard
 {
@@ -160,7 +160,7 @@ Now you can have just this:
 ```php
 use App\Enums\UserStatus;
 use App\Models\User;
-use Mokhosh\FilamentKanban\Pages\KanbanBoard;
+use Rafazingano\FilamentKanban\Pages\KanbanBoard;
 
 class UserDashboard extends KanbanBoard
 {
@@ -199,7 +199,7 @@ use App\Models\User;
 use Filament\Forms\Components\TextInput;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
-use Mokhosh\FilamentKanban\Pages\KanbanBoard;
+use Rafazingano\FilamentKanban\Pages\KanbanBoard;
 
 class UserDashboard extends KanbanBoard
 {
@@ -270,7 +270,7 @@ Now you can have just this:
 ```php
 use App\Enums\UserStatus;
 use App\Models\User;
-use Mokhosh\FilamentKanban\Pages\KanbanBoard;
+use Rafazingano\FilamentKanban\Pages\KanbanBoard;
 
 class UserDashboard extends KanbanBoard
 {

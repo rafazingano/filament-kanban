@@ -1,6 +1,6 @@
 <?php
 
-namespace Mokhosh\FilamentKanban;
+namespace Rafazingano\FilamentKanban;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;

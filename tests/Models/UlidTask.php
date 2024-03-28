@@ -1,11 +1,11 @@
 <?php
 
-namespace Mokhosh\FilamentKanban\Tests\Models;
+namespace Rafazingano\FilamentKanban\Tests\Models;
 
 use Illuminate\Database\Eloquent\Concerns\HasUlids;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Mokhosh\FilamentKanban\Tests\Enums\TaskStatus;
+use Rafazingano\FilamentKanban\Tests\Enums\TaskStatus;
 use Spatie\EloquentSortable\Sortable;
 use Spatie\EloquentSortable\SortableTrait;
 

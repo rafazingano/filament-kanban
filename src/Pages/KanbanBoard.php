@@ -1,13 +1,13 @@
 <?php
 
-namespace Mokhosh\FilamentKanban\Pages;
+namespace Rafazingano\FilamentKanban\Pages;
 
 use Filament\Forms\Contracts\HasForms;
 use Filament\Pages\Page;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Collection;
-use Mokhosh\FilamentKanban\Concerns\HasEditRecordModal;
-use Mokhosh\FilamentKanban\Concerns\HasStatusChange;
+use Rafazingano\FilamentKanban\Concerns\HasEditRecordModal;
+use Rafazingano\FilamentKanban\Concerns\HasStatusChange;
 use UnitEnum;
 
 class KanbanBoard extends Page implements HasForms

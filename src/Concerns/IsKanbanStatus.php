@@ -1,6 +1,6 @@
 <?php
 
-namespace Mokhosh\FilamentKanban\Concerns;
+namespace Rafazingano\FilamentKanban\Concerns;
 
 use Illuminate\Support\Collection;
 
